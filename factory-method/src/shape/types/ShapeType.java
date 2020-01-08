@@ -1,4 +1,7 @@
-package shape;
+package shape.types;
+
+import shape.Circle;
+import shape.Square;
 
 public enum ShapeType {
 

@@ -1,6 +1,12 @@
-package shape;
+package shape.factories;
+
+import shape.Shape;
+import shape.types.ShapeType;
 
 public class ShapeFactory {
+
+    private ShapeFactory() {
+    }
 
     public static Shape newShape(ShapeType type) {
         try {

@@ -1,5 +1,7 @@
 import gui.Window;
 import shape.*;
+import shape.factories.ShapeFactory;
+import shape.types.ShapeType;
 
 public class App {
 
